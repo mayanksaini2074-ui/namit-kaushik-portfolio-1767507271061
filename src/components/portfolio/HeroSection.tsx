@@ -817,7 +817,7 @@ const CreativeHero = ({ data, theme }: IHeroProps) => {
 						initial={{ opacity: 0, y: 10 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.5, delay: 1.4 }}
-						className="text-lg sm:text-2xl md:text-3xl text-white/60 mb-3 sm:mb-4"
+						className="text-lg sm:text-2xl md:text-3xl text-white/60 mb-3 sm:mb-4 text-white"
 					>
 						{personalInfo.title}
 					</motion.p>
